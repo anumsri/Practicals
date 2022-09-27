@@ -36,12 +36,12 @@ for i, number in enumerate(numbers, 1):
 # 1922 Gibson L-5 CES for about $16,035!
 print("{} {} for about ${:,.0f}!".format(year, name, cost))
 
-
-
-
 # TODO: Using a for loop with the range function and string formatting,
 # produce the following right-aligned output (DO NOT use a list):
 #   0
 #  50
 # 100
 # 150
+
+for i in range(0, 151, 50):
+    print("{0:>3}".format(i))
