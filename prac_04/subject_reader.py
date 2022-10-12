@@ -32,6 +32,6 @@ def get_data():
 
 def display_subjects(data):
     for subject_data in data:
-        print(f"{subject_data[0]} is taught by {subject_data[1]:12} and has {subject_data[2]:3} students")
+        print(f"{subject_data[0]} is taught by {subject_data[1]:13} and has {subject_data[2]:5} students")
 
 main()
