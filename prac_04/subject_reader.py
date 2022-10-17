@@ -25,13 +25,13 @@ def get_data():
         parts[2] = int(parts[2])  # Make the number an integer (ignore PyCharm's warning)
         print(parts)  # See if that worked
         print("----------")
-        data.append(parts)
+        data.append(parts   )
     input_file.close()
     return data
 
 
 def display_subjects(data):
-    for subject_data in data:
-        print(f"{subject_data[0]} is taught by {subject_data[1]:13} and has {subject_data[2]:5} students")
+    for movie in data:
+        print(f"{movie[0]} is taught by {movie[1]:12} and has {movie[2]:5} students")
 
 main()
